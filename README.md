@@ -279,8 +279,8 @@ gcloud beta run deploy --image gcr.io/<projectID>/gpgtest --region=us-central1 -
 
 Finally invoke the cloud run deployment paths 
 
-* `/encrypt?filename=plain.txt`
-* `/decrypt?filename=plain.txt.enc`
+* `/encrypt?file=plain.txt`
+* `/decrypt?file=plain.txt.enc`
 
 ## Conclusion
 
